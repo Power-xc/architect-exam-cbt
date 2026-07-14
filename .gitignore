@@ -40,3 +40,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .env*.local
+
+# data pipeline (raw sources + intermediates; see tools/README.md)
+/data
+tools/.venv
+__pycache__/
+*.pyc

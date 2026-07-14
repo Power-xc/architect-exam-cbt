@@ -1,0 +1,11 @@
+# PDF download + parsing
+requests>=2.31
+beautifulsoup4>=4.12
+pdfplumber>=0.11
+
+# image cropping / masking
+Pillow>=10.0
+
+# 2023-2024 OCR import (macOS only)
+PyMuPDF>=1.24
+ocrmac>=1.0
