@@ -1,0 +1,36 @@
+{
+  "name": "architect-exam-cbt",
+  "version": "0.1.0",
+  "private": true,
+  "description": "건축기사 필기 기출문제 CBT 모의고사 웹 애플리케이션",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "next": "16.2.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "prettier": "^3.9.5",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vitest": "^3.2.7"
+  }
+}
